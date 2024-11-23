@@ -1,0 +1,33 @@
+#toptitle {
+    text-align:right;
+    background-color:grey;
+    color:black;
+}
+
+.index {
+    text-align:right;
+    background-color:grey;
+}
+
+.pageheaders {
+    color:black;
+}
+
+h1 {
+    color:red;
+}
+
+body {
+    background-color:rgb(241, 235, 227);
+    color:rgb(40, 40, 40);
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align:center;
+}
+
+td {
+    length: 90px;
+    width: 100px;
+}
