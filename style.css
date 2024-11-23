@@ -1,20 +1,90 @@
-#toptitle {
+/*index and top title, header*/ 
+
+#header {
     text-align:right;
-    background-color:grey;
+    background-color:rgb(241, 235, 227);
     color:black;
+
+    #toptitle {
+        color:black;
+        font-size:60px;
+        text-align:right;
+    }
+
+    a {
+        font-size:20px;
+    }
 }
 
-.index {
-    text-align:right;
-    background-color:grey;
+/* page header images */
+#frontimg {
+    color:blanchedalmond;
+    background-image: url(./images/frontimg.png);
+    background-attachment:fixed;
+    width:100%;
 }
+
+#careersimg {
+    color:blanchedalmond;
+    background-image: url(./images/careersimg.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+#oppsimg {
+    color:blanchedalmond;
+    background-image: url(./images/office.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+#skillsimg {
+    color:blanchedalmond;
+    background-image: url(./images/essentialskills.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+#sourcesimg {
+    color:blanchedalmond;
+    background-image: url(./images/sources.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+#supportimg {
+    color:blanchedalmond;
+    background-image: url(./images/typing.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+#uniimg {
+    color:blanchedalmond;
+    background-image: url(./images/postsecondary.png);
+    background-attachment:fixed;
+    width:100%;
+}
+
+/* general images */
+
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* text */
 
 .pageheaders {
     color:black;
+    text-align:center;
+    font-size:50px;
 }
 
 h1 {
-    color:red;
+    color:rgb(0, 0, 0);
+    text-align:center;
 }
 
 body {
