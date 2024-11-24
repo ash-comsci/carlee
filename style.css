@@ -113,6 +113,29 @@
     height:625px;
 }
 
+.Uimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Uimg:hover {
+    width:1050px;
+    height:650px;
+}
+
+.Simg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Simg:hover {
+    width:622px;
+    height:380px;
+}
+
+
 /* text */
 
 .pageheaders {
@@ -153,7 +176,7 @@ body {
     font-size:20px;
 }
 
-p, ul, ol, h3, h2, table {
+p, ul, ol, h3, h2, table, .fees {
     margin-right: 60px;
     margin-left: 60px;
 }
