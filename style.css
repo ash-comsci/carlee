@@ -168,6 +168,8 @@ h3 {
 }
 
 body {
+    background-image: url(./images/bg.png);
+    background-attachment:fixed;
     background-color:rgb(30, 19, 43);
     color:rgb(233, 188, 226);
     font-family: "Outfit", sans-serif;
