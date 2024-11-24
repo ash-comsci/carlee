@@ -1,4 +1,4 @@
-/*index and top title, header*/ 
+/*index and top title, header, footer*/ 
 
 #header {
     text-align:right;
@@ -6,13 +6,25 @@
 
     #toptitle {
         color:rgb(253, 55, 119);
-        font-size:60px;
+        font-size:30px;
         text-align:right;
+        font-family:"Sixtyfour Convergence", sans-serif;
     }
 
     a {
         font-size:20px;
+        font-family: "Abril Fatface", sans-serif;
     }
+
+    hr {
+        height: 1px;
+        background-color:blueviolet;
+        border: none;
+    }
+}
+
+.footer {
+    background-color:rgb(46, 33, 87);
 
     hr {
         height: 1px;
@@ -79,6 +91,28 @@
     margin-right: auto;
 }
 
+.Cimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Cimg:hover {
+    width:55%;
+    height:55%;
+}
+
+.Oimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Oimg:hover {
+    width:985px;
+    height:625px;
+}
+
 /* text */
 
 .pageheaders {
@@ -91,30 +125,58 @@
     font-size:20px;
 }
 
+.list_title {
+    font-weight:bold;
+    color:rgb(238, 111, 196);
+}
+
 h1 {
     color:rgb(253, 55, 119);
     text-align:center;
+    font-family: "Abril Fatface", sans-serif;
 }
 
 h2 {
     color:rgb(247, 6, 207);
 }
 
+h3 {
+    color:rgb(247, 6, 207);
+}
+
 body {
     background-color:rgb(30, 19, 43);
-    color:rgb(255, 186, 243);
+    color:rgb(233, 188, 226);
+    font-family: "Outfit", sans-serif;
+    font-weight:400;
+    font-style:bold;
     font-size:20px;
 }
 
+p, ul, ol, h3, h2, table {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+
+/* tables */ 
+
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(238, 111, 196);
     text-align:center;
+}
+
+tr:hover {
+    background-color:rgb(238, 111, 196);
+    color:rgb(30, 19, 43);
 }
 
 td {
     length: 90px;
     width: 100px;
 }
+
+/* links */
 
 a {
     color:rgb(126, 113, 168);
